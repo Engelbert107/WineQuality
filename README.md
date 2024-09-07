@@ -5,6 +5,30 @@ We trained and evaluated six models: Logistic Regression, K-Nearest Neighbors, R
 
 Finally, we deployed the Random Forest model using Flask, enabling local predictions. This deployment provides a solid foundation for future implementation in a production environment. The project showcases how robust preprocessing and model selection can lead to effective predictions, offering potential business value in classifying wine quality.
 
-## How to run this project
-1. Download the project
-2. Run ``python pipeline/pipeline_best_model.py ``
+## How to run scripts ?
+1. Download the project repository
+2. Run
+   ```bash
+   python pipeline/pipeline_best_model.py
+   ```
+3. To evalute the best model on the test set
+   ```bash
+   python evaluate.py
+   ```
+## How to test deployed model on the unseen data ?
+1. Run
+   ```bash
+   python pipeline/pipeline_best_model.py
+   ```
+2. Run
+   ```bash
+   python pipeline/app.py
+   ```
+   or through the folder
+   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_app.PNG))
+4. Run
+   ```bash
+   python pipeline/test_app.py
+   ```
+   or through the folder
+   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_test.PNG))
