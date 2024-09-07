@@ -15,7 +15,6 @@ Finally, we deployed the Random Forest model using Flask, enabling local predict
    ```bash
    python evaluate.py
    ```
-   The result after runing this bash
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/best_test_result.PNG)
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
 
