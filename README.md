@@ -42,7 +42,7 @@ We compared all six models using the ROC Curve, AUC scores, and other performanc
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_test.PNG)
 
 ## Access this repository through the following link
-- Access to the [datahere](https://github.com/Engelbert107/WineQuality/tree/main/data)
+- Access to the [data here](https://github.com/Engelbert107/WineQuality/tree/main/data)
 - Access to the [notebook here](https://github.com/Engelbert107/WineQuality/tree/main/notebook)
 - Access to different [images here](https://github.com/Engelbert107/WineQuality/tree/main/images)
 - Access to the [pipeline and app here](https://github.com/Engelbert107/WineQuality/tree/main/pipeline) 
