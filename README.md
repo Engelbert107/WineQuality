@@ -24,7 +24,7 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
 
 ### Model comparison 
 We compared all six models using the ROC Curve, AUC scores, and other performance metrics. Although K-Nearest Neighbors and Random Forest achieved similar results in terms of overall performance, ``Random Forest`` outperformed K-Nearest Neighbors in precision, recall, and confusion matrix analysis. Based on these evaluations, we concluded that Random Forest is the best model for our task.
-![](https://github.com/Engelbert107/WineQuality/blob/main/images/roc_with_outliers.png)
+![](https://github.com/Engelbert107/WineQuality/blob/main/images/auc_roc_robust.png)
 
 ## How to test the deployed model on unseen data?
 
