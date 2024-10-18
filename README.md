@@ -7,13 +7,17 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
 
 ## How to run scripts?
 1. Download the project repository to explore the code and documentation.
-2. Run the pipeline for the best model.
+2. Install packages
    ```bash
-   python pipeline/pipeline_best_model.py
+   pip install -r requirements.txt
    ```
-3. To evalute the best model on the test set.
+4. Run the pipeline for the best model.
    ```bash
-   python evaluate.py
+   python our_pipeline/pipeline_best_model.py
+   ```
+5. To evalute the best model on the test set.
+   ```bash
+   python evaluation.py
    ```
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/best_test_result.PNG)
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
@@ -26,17 +30,17 @@ We compared all six models using the ROC Curve, AUC scores, and other performanc
 
 1. Make sure you have already run the pipeline for the best model, then run the following.
    ```bash
-   python pipeline/pipeline_best_model.py
+   python our_pipeline/pipeline_best_model.py
    ```
 2. Run 
    ```bash
-   python pipeline/app.py
+   python our_pipeline/app.py
    ```
    or navigate through the folder.
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_app.PNG)
 3. Run
    ```bash
-   python pipeline/test_app.py
+   python our_pipeline/test_app.py
    ```
    or navigate through the folder.
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_test.PNG)
