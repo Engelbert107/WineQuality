@@ -19,7 +19,7 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
    ```bash
    python evaluation.py
    ```
-   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/best_test_result.PNG)
+   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/best_test_result.png)
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
 
 ### Model comparison 
@@ -37,13 +37,13 @@ We compared all six models using the ROC Curve, AUC scores, and other performanc
    python our_pipeline/app.py
    ```
    or navigate through the folder.
-   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_app.PNG)
+   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_app.png)
 3. Run
    ```bash
    python our_pipeline/test_app.py
    ```
    or navigate through the folder.
-   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_test.PNG)
+   ![](https://github.com/Engelbert107/WineQuality/blob/main/images/run_test.png)
 
 ## Access this repository through the following links:
 - Access to the [data here](https://github.com/Engelbert107/WineQuality/tree/main/data)
