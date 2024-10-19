@@ -1,11 +1,23 @@
-from flask import Flask, request, jsonify
-import pandas as pd
+import os
 import joblib
+import pandas as pd
+from flask import Flask, request, jsonify
+
 
 app = Flask(__name__)
 
+
 # Load the model pipeline
-pipeline = joblib.load('wine_quality_best_model_pipeline.pkl')
+# pipeline = joblib.load('wine_quality_best_model_pipeline.pkl')
+
+# Avoid changing the working directory
+pipeline_file_path = os.path.join(os.path.dirname(__file__), 'wine_quality_best_model_pipeline.pkl')
+
+if os.path.exists(pipeline_file_path):
+    pipeline = joblib.load(pipeline_file_path)
+else:
+    print(f"File not found: {pipeline_file_path}")
+
 
 @app.route('/predict_csv', methods=['POST'])
 def predict_csv():

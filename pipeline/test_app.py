@@ -1,7 +1,11 @@
+import os
 import requests
 
 # The URL for your Flask app (where the model is deployed)
 url = 'http://127.0.0.1:5000/predict_csv'
+
+# Change the current working directory to the script's directory
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 # Path to your unseen data CSV file
 csv_file_path = '../data/unseen_wine_quality.csv'
