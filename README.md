@@ -24,6 +24,7 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
 
 ### Model comparison 
 We compared all six models using the ROC Curve, AUC scores, and other performance metrics. The ``Random Forest`` model outperformed all other models in precision, recall, confusion matrix analysis, and ROC-AUC curve performance. Based on these evaluations, we conclude that Random Forest is the best model for our task.
+
 ![](https://github.com/Engelbert107/WineQuality/blob/main/images/auc_roc_robust.png)
 
 ## How to test the deployed model on unseen data?
