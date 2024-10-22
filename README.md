@@ -7,7 +7,7 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
 
 ## How to run scripts?
 1. Download the project repository to explore the code and documentation.
-2. Install packages
+2. Install packages.
    ```bash
    pip install -r requirements.txt
    ```
