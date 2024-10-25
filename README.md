@@ -23,7 +23,7 @@ Finally, ``we deployed the Random Forest model using Flask``, enabling local pre
    ![](https://github.com/Engelbert107/WineQuality/blob/main/images/cm_rf.png)
 
 ### Model comparison 
-We compared all six models using the ROC Curve, AUC scores, and other performance metrics. The ``Random Forest`` model outperformed all other models in precision, recall, confusion matrix analysis, and ROC-AUC curve performance. Based on these evaluations, we conclude that Random Forest is the best model for our task.
+We compared all six models using the ROC Curve, AUC scores, and other performance metrics. The ``Random Forest`` model outperformed all other models in precision, recall, confusion matrix analysis, and ROC-AUC curve performance. Based on these evaluations, we conclude that Random Forest is the best model for our task. Clearly, the model needs to be improved to reduce classification errors.
 
 ![](https://github.com/Engelbert107/WineQuality/blob/main/images/auc_roc_robust.png)
 
